@@ -118,5 +118,7 @@ fn main() {
                  .arg("now")
                  .spawn()
                  .expect("Failed to shutdown system");
+    } else {
+        println!("{} - Battery at {} percent.", now, bat_now);
     }
 }
