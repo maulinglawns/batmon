@@ -1,9 +1,9 @@
 [Unit]
-Description=Run batmon every 30 minutes
+Description=Execut batmon service 
 
 [Timer]
 OnBootSec=5m
-OnUnitActiveSec=30m
+OnUnitActiveSec=15m
 
 [Install]
 WantedBy=timers.target

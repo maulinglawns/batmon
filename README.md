@@ -39,3 +39,13 @@ sudo journalctl -u batmon
 to see log entries.
 ```
 
+## Uninstalling
+Either delete the files manually, or run the uninstall script:
+```
+sudo ./uninstall.sh 
+Stopping systemd files
+Removed /etc/systemd/system/timers.target.wants/batmon.timer.
+Deleting systemd files
+Removing binary in /opt/batmon
+Uninstall complete
+```
